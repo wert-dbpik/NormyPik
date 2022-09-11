@@ -6,8 +6,7 @@ import android.os.Bundle
 import android.widget.ImageButton
 import android.widget.ImageView
 
-class MainActivity : AppCompatActivity() {
-
+class MainActivity : BaseActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -18,7 +17,6 @@ class MainActivity : AppCompatActivity() {
         logo.setOnClickListener {
             val startApplication = Intent(this, StartActivity::class.java);
             startActivity(startApplication);
-
         }
 
     }
