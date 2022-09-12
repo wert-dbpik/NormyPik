@@ -10,9 +10,15 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme.AppCompat">
         <activity
-            android:name=".StartActivity"
-            android:theme="@style/AppTheme"
+            android:name=".time_norms.TimeNormsActivity"
             android:exported="false" />
+        <activity
+            android:name=".materials.MaterialsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".StartActivity"
+            android:exported="false"
+            android:theme="@style/AppTheme" />
         <activity
             android:name=".MainActivity"
             android:exported="true">
